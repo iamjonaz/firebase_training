@@ -1,17 +1,22 @@
-# firebase_training
+# Firebase Auth Simple
 
-A new Flutter project.
+Aplikasi Flutter sederhana dengan Firebase Authentication (Email/Password).
 
-## Getting Started
+## Fitur
+- Login dengan email dan password (Firebase Auth)
+- Dashboard user setelah login (UID, email, status verifikasi, terakhir login)
+- Logout
+- AuthWrapper dengan StreamBuilder untuk mendeteksi status login secara otomatis
 
-This project is a starting point for a Flutter application.
+## Struktur
+- lib/main.dart - inisialisasi Firebase
+- lib/app.dart - MyApp (root widget)
+- lib/auth_wrapper.dart - AuthWrapper (StreamBuilder authStateChanges)
+- lib/screens/login_screen.dart - halaman login
+- lib/screens/user_info_screen.dart - halaman dashboard user
+- lib/firebase_options.dart - konfigurasi Firebase (hasil flutterfire configure)
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Cara Menjalankan
+1. flutter pub get
+2. flutter run
+3. Login dengan user yang dibuat di Firebase Console (Authentication > Users)
