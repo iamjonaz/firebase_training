@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'auth_wrapper.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
@@ -9,10 +10,8 @@ class MyApp extends StatelessWidget {
       title: 'Firebase Auth Simple',
       theme: ThemeData(
         primarySwatch: Colors.blue,
-      ), // ThemeData
-      home: const Scaffold(
-        body: Center(child: Text('Firebase Auth Simple')),
       ),
-    ); // MaterialApp
+      home: const AuthWrapper(),
+    );
   }
 }
