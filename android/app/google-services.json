@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "422049166691",
+    "project_id": "iamjonazproject",
+    "storage_bucket": "iamjonazproject.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:422049166691:android:ddc6ab878534e9c37d8f56",
+        "android_client_info": {
+          "package_name": "com.example.firebase_training"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgketza4GhpinZeVgRkmA7KnRtkTtQnw8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:422049166691:android:a44b0a3fea6367857d8f56",
+        "android_client_info": {
+          "package_name": "com.iamjonaz.aplikasigacor"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgketza4GhpinZeVgRkmA7KnRtkTtQnw8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
