@@ -5,6 +5,9 @@ class UserInfoScreen extends StatelessWidget {
   final User user;
 
   const UserInfoScreen({Key? key, required this.user}) : super(key: key);
+    Future<void> _logout() async {
+    await FirebaseAuth.instance.signOut();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -14,7 +17,7 @@ class UserInfoScreen extends StatelessWidget {
         actions: [
           IconButton(
             icon: const Icon(Icons.logout),
-            onPressed: () {},
+            onPressed: _logout,
             tooltip: 'Logout',
           )
         ],
